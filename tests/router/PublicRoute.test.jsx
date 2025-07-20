@@ -1,7 +1,4 @@
-/**
- * @jest-environment node
- */
-import { render } from "@testing-library/react";
+import { render, screen, cleanup } from '@testing-library/react';
 import { AuthContext } from "../../src/auth";
 import { PublicRoute } from "../../src/router/PublicRoute";
 
